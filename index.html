@@ -2,116 +2,116 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#071226">
-<title>ATSIZ | بطولات eFootball</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080b18">
+<meta name="description" content="ATSIZ — بطولات eFootball Mobile">
+<title>ATSIZ | بطولات eFootball Mobile</title>
 <style>
-:root{--bg:#06101f;--panel:#0b1b33;--panel2:#102544;--blue:#2878ff;--cyan:#6bd7ff;--purple:#9b5cff;--text:#f4f7ff;--muted:#a9bad4;--line:#1d3b62}
-*{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at 15% 0%,#20205b 0,#0b1530 38%,#030914 100%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.6}
-a{color:inherit;text-decoration:none}
-.wrap{width:min(100% - 28px,980px);margin:auto}
-header{padding:18px 0;border-bottom:1px solid var(--line);background:#06101fe8;position:sticky;top:0;backdrop-filter:blur(12px);z-index:3}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.15rem}
-.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#286dff,#9b5cff);font-size:1.35rem}
-.nav small{display:block;color:var(--muted);font-size:.7rem;font-weight:500}
-.pill{border:1px solid #6046a3;background:#1a2148;border-radius:999px;padding:7px 12px;color:#d9e9ff;font-size:.8rem;white-space:nowrap}
-.hero{padding:34px 0 22px}
-.hero-card{overflow:hidden;border:1px solid var(--line);border-radius:24px;padding:24px;background:linear-gradient(120deg,#162e68 0%,#241548 48%,#071326 100%);position:relative}
-.hero-card:after{content:"e";position:absolute;left:-10px;top:-70px;font-size:300px;font-weight:1000;color:#3d83ff12;pointer-events:none}
-.kicker{color:var(--cyan);font-size:.85rem;font-weight:800;letter-spacing:.04em}
-h1{font-size:clamp(1.8rem,7vw,3.25rem);line-height:1.2;margin:10px 0 14px;max-width:650px}
-.hero p{color:#c2d2e9;max-width:560px;margin:0 0 20px}
-.actions{display:flex;gap:10px;flex-wrap:wrap}
-.btn{border:0;border-radius:12px;padding:12px 17px;font:inherit;font-weight:800;cursor:pointer;display:inline-flex;justify-content:center;align-items:center}
-.primary{background:linear-gradient(135deg,#3486ff,#8b45f7);color:white;box-shadow:0 8px 24px #1559e833}
-.secondary{background:#0b1c34;border:1px solid #315783;color:#e5f1ff}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}
-.stat{border:1px solid var(--line);border-radius:14px;padding:12px;background:#061329b8;text-align:center}
-.stat strong{display:block;font-size:1.05rem;color:#fff}.stat span{color:var(--muted);font-size:.75rem}
-section{padding:18px 0}
-.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}
-h2{font-size:1.3rem;margin:0}
-.section-head p{color:var(--muted);font-size:.8rem;margin:3px 0 0}
-.cards{display:grid;grid-template-columns:1fr;gap:12px}
-.card{border:1px solid var(--line);background:linear-gradient(145deg,#0c1d35,#081529);border-radius:18px;padding:16px}
-.card-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.game-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#132d51,#302052);border:1px solid #51428a;font-size:1.5rem}
-.badge{font-size:.72rem;font-weight:800;border-radius:999px;padding:5px 9px;background:#075e50;color:#a9ffe8}
-.badge.soon{background:#263b60;color:#c6dcff}
-.card h3{margin:12px 0 3px;font-size:1.05rem}
-.card p{margin:0;color:var(--muted);font-size:.86rem}
-.meta{display:flex;gap:12px;flex-wrap:wrap;color:#b8cbe5;font-size:.78rem;margin:12px 0}
-.card .btn{width:100%;margin-top:4px}
-.note{border:1px solid #715a26;background:#2b2412;color:#ffedb3;border-radius:14px;padding:12px 14px;font-size:.82rem}
-.steps{display:grid;grid-template-columns:1fr;gap:10px}
-.step{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:14px;background:#09182b}
-.num{flex:0 0 30px;height:30px;display:grid;place-items:center;border-radius:10px;background:#164da6;color:#fff;font-weight:900}
-.step p{margin:2px 0 0;color:var(--muted);font-size:.85rem}
-footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--muted);font-size:.8rem;margin-top:16px}
-footer .brand{color:var(--text);margin-bottom:7px}
-@media(min-width:650px){.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.hero-card{padding:38px}.stats{max-width:520px}}
+:root{color-scheme:dark;--bg:#080b18;--panel:#111a30;--panel2:#172342;--text:#f5f7ff;--muted:#aab6d2;--line:#ffffff18;--blue:#4f8cff;--purple:#9b5cff;--green:#62e6b5;--yellow:#ffd166}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0,#5137a733,transparent 35%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.65}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}a{color:inherit;text-decoration:none}.wrap{width:min(100% - 28px,720px);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#080b18eF;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:65px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:9px;font-size:20px;font-weight:950;letter-spacing:1px}.logo{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--purple));font-weight:1000}.nav small{color:var(--muted);font-size:11px}
+.hero{padding:26px 0 20px}.hero-box{border:1px solid #8e88ff40;border-radius:23px;padding:24px 20px;background:linear-gradient(145deg,#17254a,#111327 72%);overflow:hidden;position:relative}.eyebrow{display:inline-flex;gap:7px;align-items:center;color:#c7caff;background:#7d75ff1a;border:1px solid #8e88ff44;border-radius:99px;padding:5px 10px;font-size:12px;font-weight:800}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}h1{font-size:clamp(34px,10vw,48px);line-height:1.13;margin:15px 0 10px;letter-spacing:-1px}h1 span{color:#8db8ff}.hero p{margin:0;color:var(--muted);font-size:14px;max-width:460px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.btn{border:0;border-radius:12px;padding:12px 15px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;gap:7px;cursor:pointer}.primary{background:linear-gradient(110deg,#438dff,#8954f7);color:white}.secondary{background:#ffffff0a;border:1px solid var(--line);color:var(--text)}.btn:active{transform:scale(.98)}.section{padding:17px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:13px}.section h2{font-size:21px;margin:0}.section-head p{margin:3px 0 0;color:var(--muted);font-size:12px}.tiny-label{font-size:11px;color:#a9b7ff;font-weight:850;letter-spacing:.7px}
+.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:5px;margin-bottom:12px}.tab{white-space:nowrap;border:1px solid var(--line);background:#ffffff06;color:var(--muted);border-radius:999px;padding:8px 13px;font-size:13px;cursor:pointer}.tab.active{background:#4b73ff26;color:#fff;border-color:#7294ff80}
+.tournament{background:linear-gradient(145deg,#131f3b,#101426);border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:11px}.tour-top{display:flex;align-items:start;gap:12px}.cup{width:49px;height:49px;border-radius:15px;background:#6c70ff22;display:grid;place-items:center;font-size:24px;flex-shrink:0}.tour-title{font-weight:900;font-size:17px}.muted{color:var(--muted)}.small{font-size:12px}.status{font-size:11px;color:var(--green);background:#62e6b515;border:1px solid #62e6b53d;padding:4px 8px;border-radius:99px;margin-right:auto;white-space:nowrap}.tour-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:15px 0}.meta{background:#ffffff06;border:1px solid var(--line);border-radius:11px;padding:9px}.meta small{display:block;color:var(--muted);font-size:10px}.meta strong{font-size:13px;display:block;margin-top:3px}.tour-actions{display:flex;gap:8px}.tour-actions .btn{flex:1;font-size:13px;padding:10px 7px}
+.info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.info{border:1px solid var(--line);background:#ffffff05;border-radius:15px;padding:15px}.info b{display:block;margin-bottom:5px}.info p{font-size:12px;color:var(--muted);margin:0}.rule-list{padding:0;margin:0;list-style:none;display:grid;gap:9px}.rule-list li{display:flex;gap:9px;font-size:13px;color:#d5dcf0}.check{color:var(--green);font-weight:900}
+.bottom-nav{position:sticky;bottom:0;z-index:4;background:#0b1022f2;backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));display:flex;justify-content:space-around}.bottom-nav a{display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--muted);font-size:10px;min-width:56px}.bottom-nav a.active{color:#a9bdff}.bottom-nav .ico{font-size:19px}
+footer{padding:20px 0 85px;text-align:center;color:var(--muted);font-size:11px}
+dialog{width:min(100% - 24px,500px);max-height:88dvh;overflow:auto;border:1px solid #ffffff24;border-radius:20px;background:#11182c;color:var(--text);padding:20px;box-shadow:0 25px 90px #000b}dialog::backdrop{background:#02040bc9;backdrop-filter:blur(4px)}.modal-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.modal-head h2{font-size:21px;margin:0}.close{background:#ffffff12;border:1px solid var(--line);border-radius:10px;color:white;width:38px;height:38px;font-size:20px}.field{display:grid;gap:6px;margin:13px 0}.field label{font-size:13px;font-weight:800}.field input,.field select,.field textarea{width:100%;border:1px solid #ffffff20;background:#090f20;color:white;border-radius:11px;padding:12px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#7c9bff}.field .hint{font-size:11px;color:var(--muted)}.notice{padding:11px 12px;border-radius:12px;background:#ffd16612;border:1px solid #ffd16635;color:#f7df9d;font-size:12px}.toast{position:fixed;bottom:80px;left:14px;right:14px;margin:auto;max-width:500px;background:#1b2947;border:1px solid #ffffff20;border-radius:12px;padding:13px 15px;z-index:20;display:none;font-size:13px}.toast.show{display:block}.empty{border:1px dashed #ffffff2c;border-radius:15px;padding:22px;text-align:center;color:var(--muted);font-size:13px}
+@media(min-width:600px){.hero-box{padding:34px}.tour-meta{grid-template-columns:repeat(3,1fr)}.tournament{padding:20px}.section{padding:22px 0}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <div class="brand"><div class="logo">🎮</div><div>ATSIZ<small>PLAY • COMPETE • WIN</small></div></div>
-    <span class="pill">نسخة تجريبية</span>
-  </div>
-</header>
+<header><div class="wrap nav"><a class="brand" href="#home"><span class="logo">A</span><span>ATSIZ</span></a><small>eFootball MOBILE</small></div></header>
 <main class="wrap">
-  <div class="hero">
-    <div class="hero-card">
-      <div class="kicker">منصة بطولات eFootball</div>
-      <h1>ورّيهم مهارتك.<br>مكانك في القمة مستنيك.</h1>
-      <p>تابع البطولات، تعرّف على منافسيك، وابدأ رحلتك في مسابقات أونلاين منظمة للاعبين.</p>
-      <div class="actions">
-        <a class="btn primary" href="#tournaments">تصفح البطولات ↓</a>
-        <a class="btn secondary" href="#how">إزاي تشارك؟</a>
-      </div>
-    </div>
-    <div class="stats">
-      <div class="stat"><strong>eFootball</strong><span>اللعبة الأساسية</span></div>
-      <div class="stat"><strong>أونلاين</strong><span>العب من مكانك</span></div>
-      <div class="stat"><strong>مجاني</strong><span>للبداية التجريبية</span></div>
-    </div>
-  </div>
-
-  <section id="tournaments">
-    <div class="section-head"><div><h2>البطولات القادمة</h2><p>دي بطولات تجريبية للتصميم، وليست مواعيد مؤكدة.</p></div><span class="pill">الموسم الأول</span></div>
-    <div class="cards">
-      <article class="card">
-        <div class="card-top"><div class="game-icon">🏆</div><span class="badge">مجانية</span></div>
-        <h3>بطولة البداية</h3><p>بطولة فردية للمبتدئين — نظام خروج المغلوب.</p>
-        <div class="meta"><span>👥 16 لاعبًا</span><span>🗓️ الموعد يحدد لاحقًا</span></div>
-        <a class="btn primary" href="https://forms.gle/forms.gleforms.gleforms.gleeeoeqLGxTh43awCz7" target="_blank" rel="noopener">سجّل في البطولة</a>
-      </article>
-      <article class="card">
-        <div class="card-top"><div class="game-icon">⚽</div><span class="badge soon">قريبًا</span></div>
-        <h3>كأس نهاية الأسبوع</h3><p>منافسات ودية لاكتساب الخبرة وتحسين ترتيبك.</p>
-        <div class="meta"><span>👥 8 أو 16 لاعبًا</span><span>🗓️ الموعد يحدد لاحقًا</span></div>
-        <a class="btn secondary" href="https://forms.gle/eeoeqLGxTh43awCz7" target="_blank" rel="noopener">سجّل اهتمامك</a>
-      </article>
-    </div>
-  </section>
-
-  <section id="how">
-    <div class="section-head"><div><h2>إزاي تشارك؟</h2><p>طريقة بسيطة للنسخة الأولى.</p></div></div>
-    <div class="steps">
-      <div class="step"><div class="num">1</div><div><strong>تابع إعلان البطولة</strong><p>هننشر موعد التسجيل والقواعد قبل بداية المنافسة.</p></div></div>
-      <div class="step"><div class="num">2</div><div><strong>سجّل بيانات اللعب فقط</strong><p>اسم اللاعب ومعرّف اللعبة ووسيلة تواصل مناسبة؛ لا تشارك كلمة مرور حسابك.</p></div></div>
-      <div class="step"><div class="num">3</div><div><strong>العب مباراتك</strong><p>اتفق مع خصمك على الموعد حسب قواعد البطولة.</p></div></div>
-      <div class="step"><div class="num">4</div><div><strong>أرسل النتيجة</strong><p>يُراجع المنظم النتيجة عند وجود خلاف، ثم يحدث جدول البطولة.</p></div></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="note">تنبيه: هذه واجهة تجريبية. رابط التسجيل يفتح نموذج Google Forms الخاص بـ ATSIZ، لكن البطولات والمواعيد المعروضة أمثلة وليست بطولات مؤكدة بعد.</div>
-  </section>
+<section class="hero" id="home"><div class="hero-box">
+<span class="eyebrow"><span class="dot"></span> ساحة المنافسة</span>
+<h1>اسمك في الملعب.<br><span>ومهارتك تحسم.</span></h1>
+<p>تابع بطولات eFootball Mobile، اعرف نظام اللعب، وسجّل باسم فريقك. منصة ATSIZ مصممة للموبايل.</p>
+<div class="actions"><a class="btn primary" href="#tournaments">🏆 استكشف البطولات</a><a class="btn secondary" href="#rules">📋 قواعد اللعب</a></div>
+</div></section>
+<section class="section" id="tournaments">
+<div class="section-head"><div><div class="tiny-label">COMPETE</div><h2>البطولات</h2><p>اختار بطولة واقرأ شروطها قبل التسجيل.</p></div><span class="small muted" id="tourCount">بطولة تجريبية</span></div>
+<div class="tabs" role="tablist"><button class="tab active" data-filter="all">الكل</button><button class="tab" data-filter="open">التسجيل مفتوح</button><button class="tab" data-filter="upcoming">قريبًا</button></div>
+<div id="tournamentList"></div>
+</section>
+<section class="section" id="format"><div class="section-head"><div><div class="tiny-label">FORMAT</div><h2>نظام البطولة</h2><p>مجموعات ثم خروج المغلوب</p></div></div>
+<div class="info-grid">
+<div class="info"><b>👥 مرحلة المجموعات</b><p>مثال البطولة: 32 لاعبًا، 8 مجموعات، 4 لاعبين في كل مجموعة.</p></div>
+<div class="info"><b>🏆 التأهل</b><p>أول وثاني كل مجموعة يتأهلان إلى دور الـ16.</p></div>
+<div class="info"><b>📸 توثيق النتائج</b><p>ارفع صورة واضحة للنتيجة، واعتمدها الإدارة بعد المراجعة.</p></div>
+<div class="info"><b>⏱️ مهلة المباراة</b><p>المهلة المقترحة 24 ساعة وفق جدول البطولة وقواعدها المنشورة.</p></div>
+</div></section>
+<section class="section" id="rules"><div class="section-head"><div><div class="tiny-label">FAIR PLAY</div><h2>قواعد اللعب</h2><p>القواعد لازم تكون واضحة للجميع قبل التسجيل.</p></div></div>
+<div class="tournament"><ul class="rule-list">
+<li><span class="check">✓</span><span>اسم الفريق المسجل ثابت طوال البطولة، وأي تغيير يحتاج موافقة الإدارة.</span></li>
+<li><span class="check">✓</span><span>اتفق مع خصمك على موعد المباراة داخل المهلة المحددة، واحتفظ بسجل التواصل.</span></li>
+<li><span class="check">✓</span><span>ارفع صورة النتيجة بعد المباراة؛ لو اختلف الطرفان، تتحول المواجهة للمراجعة.</span></li>
+<li><span class="check">✓</span><span>بلاغ الغش يحتاج دليلًا قابلًا للمراجعة، مثل تسجيل شاشة مدته 10 ثوانٍ على الأقل، وقد تطلب الإدارة تفاصيل إضافية.</span></li>
+<li><span class="check">✓</span><span>مشاكل الإنترنت والغياب والاعتراضات تُحسم حسب قواعد معلنة، لا بقرار تلقائي غير موثق.</span></li>
+</ul></div>
+<div class="notice">هذه نسخة بداية تجريبية. التسجيل هنا محلي على جهازك فقط؛ لا ترسل بيانات حقيقية أو أرقام هاتف. لم يتم ربط قاعدة بيانات أو نشر الموقع بعد.</div>
+</section>
+<section class="section" id="admin"><div class="section-head"><div><div class="tiny-label">ADMIN</div><h2>الإدارة والتجربة</h2><p>أدوات أولية لمراجعة شكل التسجيل فقط.</p></div></div>
+<div class="info-grid">
+<div class="info"><b>🧾 نموذج تسجيل</b><p>اسم الفريق، وسيلة التواصل، وبيانات حساب اللعبة.</p><button class="btn secondary" style="margin-top:12px;width:100%" id="openRegister">جرّب التسجيل</button></div>
+<div class="info"><b>🛠️ لوحة الإدارة</b><p>في النسخة الكاملة ستحتاج دخولًا آمنًا لإدارة المشاركين والنتائج.</p><button class="btn secondary" style="margin-top:12px;width:100%" id="adminInfo">متطلبات الإدارة</button></div>
+</div>
+</section>
 </main>
-<footer><div class="wrap"><div class="brand"><div class="logo">🎮</div> ATSIZ</div><div>ATSIZ مشروع تجريبي مستقل لمجتمع اللاعبين. اسم الموقع ATSIZ، ولا يُقصد به تمثيل Konami أو eFootball رسميًا.</div></div></footer>
-
-</body>
-</html>
+<footer class="wrap">ATSIZ • eFootball Mobile Community<br>نسخة واجهة أولية — ليست منصة تسجيل أو دفع جاهزة للإطلاق.</footer>
+<nav class="bottom-nav" aria-label="التنقل">
+<a class="active" href="#home"><span class="ico">⌂</span><span>الرئيسية</span></a>
+<a href="#tournaments"><span class="ico">🏆</span><span>البطولات</span></a>
+<a href="#format"><span class="ico">▦</span><span>النظام</span></a>
+<a href="#rules"><span class="ico">🛡</span><span>القواعد</span></a>
+<a href="#admin"><span class="ico">⚙</span><span>الإدارة</span></a>
+</nav>
+<dialog id="registerDialog">
+<div class="modal-head"><h2>التسجيل التجريبي</h2><button class="close" id="closeRegister" aria-label="إغلاق">×</button></div>
+<p class="muted small">النموذج للمعاينة فقط. لا تدخل بيانات شخصية حقيقية في هذه النسخة.</p>
+<form id="registerForm">
+<div class="field"><label for="teamName">اسم الفريق في اللعبة *</label><input id="teamName" name="teamName" required maxlength="30" placeholder="اكتب الاسم كما يظهر في اللعبة"><span class="hint">سيكون الاسم ثابتًا أثناء البطولة بعد تأكيد التسجيل.</span></div>
+<div class="field"><label for="contactType">وسيلة التواصل المفضلة *</label><select id="contactType" name="contactType" required><option value="">اختار وسيلة</option><option>WhatsApp</option><option>Telegram</option><option>Instagram</option><option>TikTok</option></select></div>
+<div class="field"><label for="contact">معرّف التواصل التجريبي *</label><input id="contact" name="contact" required maxlength="80" placeholder="@username أو بيانات تجريبية"></div>
+<div class="field"><label for="gameId">معرّف اللاعب داخل اللعبة (اختياري)</label><input id="gameId" name="gameId" maxlength="50" placeholder="معرّف تجريبي"></div>
+<div class="notice">بالنسخة النهائية، بيانات التواصل لا تُعرض للعامة، ولا تُجمع إلا بعد إعداد تخزين آمن وسياسة خصوصية.</div>
+<button class="btn primary" style="width:100%;margin-top:14px" type="submit">معاينة التسجيل</button>
+</form>
+</dialog>
+<dialog id="messageDialog"><div class="modal-head"><h2 id="messageTitle">معلومات</h2><button class="close" id="closeMessage">×</button></div><p id="messageBody" class="muted"></p><button class="btn primary" style="width:100%" id="okMessage">تمام</button></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const tournaments=[
+ {id:"demo-cup",name:"ATSIZ Cup — تجربة",status:"open",statusLabel:"معاينة",players:"32 لاعبًا",format:"مجموعات ثم خروج المغلوب",fee:"غير مفعّلة",date:"يُحدد لاحقًا",desc:"بطولة تجريبية لعرض شكل صفحة البطولة. ليست مفتوحة للتسجيل الفعلي."}
+];
+const list=document.getElementById('tournamentList');
+function renderTournaments(filter='all'){
+ const items=tournaments.filter(t=>filter==='all'||t.status===filter);
+ list.innerHTML='';
+ if(!items.length){list.innerHTML='<div class="empty">مفيش بطولات في القسم ده حاليًا.</div>';return}
+ items.forEach(t=>{
+  const card=document.createElement('article');card.className='tournament';
+  card.innerHTML=`<div class="tour-top"><div class="cup">🏆</div><div style="flex:1;min-width:0"><div class="tour-title"></div><div class="small muted">eFootball Mobile • Android & iOS</div></div><span class="status"></span></div><p class="small muted" style="margin:12px 0 0"></p><div class="tour-meta"><div class="meta"><small>عدد المشاركين</small><strong></strong></div><div class="meta"><small>نظام اللعب</small><strong></strong></div><div class="meta"><small>الموعد</small><strong></strong></div></div><div class="tour-actions"><button class="btn primary details">تفاصيل البطولة</button><button class="btn secondary register">التسجيل التجريبي</button></div>`;
+  card.querySelector('.tour-title').textContent=t.name;
+  card.querySelector('.status').textContent=t.statusLabel;
+  card.querySelector('p').textContent=t.desc;
+  const strongs=card.querySelectorAll('.meta strong');strongs[0].textContent=t.players;strongs[1].textContent=t.format;strongs[2].textContent=t.date;
+  card.querySelector('.details').addEventListener('click',()=>showMessage(t.name,`${t.desc} نظام البطولة: ${t.format}. عدد اللاعبين المستهدف: ${t.players}. الرسوم والجوائز غير مفعّلة في النسخة التجريبية.`));
+  card.querySelector('.register').addEventListener('click',()=>document.getElementById('registerDialog').showModal());
+  list.appendChild(card);
+ });
+}
+renderTournaments();
+document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));tab.classList.add('active');renderTournaments(tab.dataset.filter)}));
+const registerDialog=document.getElementById('registerDialog');
+document.getElementById('openRegister').addEventListener('click',()=>registerDialog.showModal());
+document.getElementById('closeRegister').addEventListener('click',()=>registerDialog.close());
+const messageDialog=document.getElementById('messageDialog');
+function showMessage(title,body){document.getElementById('messageTitle').textContent=title;document.getElementById('messageBody').textContent=body;messageDialog.showModal()}
+document.getElementById('adminInfo').addEventListener('click',()=>showMessage('متطلبات لوحة الإدارة','النسخة الكاملة تحتاج تسجيل دخول آمن للإدارة، قاعدة بيانات، تخزين آمن للأدلة، وصلاحيات منفصلة للاعبين والمنظم. لا توجد لوحة إدارة فعلية في هذه المعاينة.'));
+document.getElementById('closeMessage').addEventListener('click',()=>messageDialog.close());
+document.getElementById('okMessage').addEventListener('click',()=>messageDialog.close());
+document.getElementById('registerForm').addEventListener('submit',e=>{e.preventDefault();showMessage('تمت معاينة النموذج','البيانات لم تُرسل ولم تُحفظ. عند تجهيز قاعدة البيانات، سنربط النموذج بتسجيل فعلي آمن.');registerDialog.close();e.target.reset()});
+document.querySelectorAll('.bottom-nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.bottom-nav a').forEach(x=>x.classList.remove('active'));a.classList.add('active')}));
+</script>
+</body></html>
