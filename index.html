@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071226">
+<title>ATSIZ | بطولات eFootball</title>
+<style>
+:root{--bg:#06101f;--panel:#0b1b33;--panel2:#102544;--blue:#2878ff;--cyan:#6bd7ff;--purple:#9b5cff;--text:#f4f7ff;--muted:#a9bad4;--line:#1d3b62}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#20205b 0,#0b1530 38%,#030914 100%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(100% - 28px,980px);margin:auto}
+header{padding:18px 0;border-bottom:1px solid var(--line);background:#06101fe8;position:sticky;top:0;backdrop-filter:blur(12px);z-index:3}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.15rem}
+.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#286dff,#9b5cff);font-size:1.35rem}
+.nav small{display:block;color:var(--muted);font-size:.7rem;font-weight:500}
+.pill{border:1px solid #6046a3;background:#1a2148;border-radius:999px;padding:7px 12px;color:#d9e9ff;font-size:.8rem;white-space:nowrap}
+.hero{padding:34px 0 22px}
+.hero-card{overflow:hidden;border:1px solid var(--line);border-radius:24px;padding:24px;background:linear-gradient(120deg,#162e68 0%,#241548 48%,#071326 100%);position:relative}
+.hero-card:after{content:"e";position:absolute;left:-10px;top:-70px;font-size:300px;font-weight:1000;color:#3d83ff12;pointer-events:none}
+.kicker{color:var(--cyan);font-size:.85rem;font-weight:800;letter-spacing:.04em}
+h1{font-size:clamp(1.8rem,7vw,3.25rem);line-height:1.2;margin:10px 0 14px;max-width:650px}
+.hero p{color:#c2d2e9;max-width:560px;margin:0 0 20px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{border:0;border-radius:12px;padding:12px 17px;font:inherit;font-weight:800;cursor:pointer;display:inline-flex;justify-content:center;align-items:center}
+.primary{background:linear-gradient(135deg,#3486ff,#8b45f7);color:white;box-shadow:0 8px 24px #1559e833}
+.secondary{background:#0b1c34;border:1px solid #315783;color:#e5f1ff}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}
+.stat{border:1px solid var(--line);border-radius:14px;padding:12px;background:#061329b8;text-align:center}
+.stat strong{display:block;font-size:1.05rem;color:#fff}.stat span{color:var(--muted);font-size:.75rem}
+section{padding:18px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}
+h2{font-size:1.3rem;margin:0}
+.section-head p{color:var(--muted);font-size:.8rem;margin:3px 0 0}
+.cards{display:grid;grid-template-columns:1fr;gap:12px}
+.card{border:1px solid var(--line);background:linear-gradient(145deg,#0c1d35,#081529);border-radius:18px;padding:16px}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.game-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#132d51,#302052);border:1px solid #51428a;font-size:1.5rem}
+.badge{font-size:.72rem;font-weight:800;border-radius:999px;padding:5px 9px;background:#075e50;color:#a9ffe8}
+.badge.soon{background:#263b60;color:#c6dcff}
+.card h3{margin:12px 0 3px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.86rem}
+.meta{display:flex;gap:12px;flex-wrap:wrap;color:#b8cbe5;font-size:.78rem;margin:12px 0}
+.card .btn{width:100%;margin-top:4px}
+.note{border:1px solid #715a26;background:#2b2412;color:#ffedb3;border-radius:14px;padding:12px 14px;font-size:.82rem}
+.steps{display:grid;grid-template-columns:1fr;gap:10px}
+.step{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:14px;background:#09182b}
+.num{flex:0 0 30px;height:30px;display:grid;place-items:center;border-radius:10px;background:#164da6;color:#fff;font-weight:900}
+.step p{margin:2px 0 0;color:var(--muted);font-size:.85rem}
+footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--muted);font-size:.8rem;margin-top:16px}
+footer .brand{color:var(--text);margin-bottom:7px}
+@media(min-width:650px){.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.hero-card{padding:38px}.stats{max-width:520px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><div class="logo">🎮</div><div>ATSIZ<small>PLAY • COMPETE • WIN</small></div></div>
+    <span class="pill">نسخة تجريبية</span>
+  </div>
+</header>
+<main class="wrap">
+  <div class="hero">
+    <div class="hero-card">
+      <div class="kicker">منصة بطولات eFootball</div>
+      <h1>ورّيهم مهارتك.<br>مكانك في القمة مستنيك.</h1>
+      <p>تابع البطولات، تعرّف على منافسيك، وابدأ رحلتك في مسابقات أونلاين منظمة للاعبين.</p>
+      <div class="actions">
+        <a class="btn primary" href="#tournaments">تصفح البطولات ↓</a>
+        <a class="btn secondary" href="#how">إزاي تشارك؟</a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>eFootball</strong><span>اللعبة الأساسية</span></div>
+      <div class="stat"><strong>أونلاين</strong><span>العب من مكانك</span></div>
+      <div class="stat"><strong>مجاني</strong><span>للبداية التجريبية</span></div>
+    </div>
+  </div>
+
+  <section id="tournaments">
+    <div class="section-head"><div><h2>البطولات القادمة</h2><p>دي بطولات تجريبية للتصميم، وليست مواعيد مؤكدة.</p></div><span class="pill">الموسم الأول</span></div>
+    <div class="cards">
+      <article class="card">
+        <div class="card-top"><div class="game-icon">🏆</div><span class="badge">مجانية</span></div>
+        <h3>بطولة البداية</h3><p>بطولة فردية للمبتدئين — نظام خروج المغلوب.</p>
+        <div class="meta"><span>👥 16 لاعبًا</span><span>🗓️ الموعد يحدد لاحقًا</span></div>
+        <a class="btn primary" href="https://forms.gle/forms.gleforms.gleforms.gleeeoeqLGxTh43awCz7" target="_blank" rel="noopener">سجّل في البطولة</a>
+      </article>
+      <article class="card">
+        <div class="card-top"><div class="game-icon">⚽</div><span class="badge soon">قريبًا</span></div>
+        <h3>كأس نهاية الأسبوع</h3><p>منافسات ودية لاكتساب الخبرة وتحسين ترتيبك.</p>
+        <div class="meta"><span>👥 8 أو 16 لاعبًا</span><span>🗓️ الموعد يحدد لاحقًا</span></div>
+        <a class="btn secondary" href="https://forms.gle/eeoeqLGxTh43awCz7" target="_blank" rel="noopener">سجّل اهتمامك</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="section-head"><div><h2>إزاي تشارك؟</h2><p>طريقة بسيطة للنسخة الأولى.</p></div></div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div><strong>تابع إعلان البطولة</strong><p>هننشر موعد التسجيل والقواعد قبل بداية المنافسة.</p></div></div>
+      <div class="step"><div class="num">2</div><div><strong>سجّل بيانات اللعب فقط</strong><p>اسم اللاعب ومعرّف اللعبة ووسيلة تواصل مناسبة؛ لا تشارك كلمة مرور حسابك.</p></div></div>
+      <div class="step"><div class="num">3</div><div><strong>العب مباراتك</strong><p>اتفق مع خصمك على الموعد حسب قواعد البطولة.</p></div></div>
+      <div class="step"><div class="num">4</div><div><strong>أرسل النتيجة</strong><p>يُراجع المنظم النتيجة عند وجود خلاف، ثم يحدث جدول البطولة.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="note">تنبيه: هذه واجهة تجريبية. رابط التسجيل يفتح نموذج Google Forms الخاص بـ ATSIZ، لكن البطولات والمواعيد المعروضة أمثلة وليست بطولات مؤكدة بعد.</div>
+  </section>
+</main>
+<footer><div class="wrap"><div class="brand"><div class="logo">🎮</div> ATSIZ</div><div>ATSIZ مشروع تجريبي مستقل لمجتمع اللاعبين. اسم الموقع ATSIZ، ولا يُقصد به تمثيل Konami أو eFootball رسميًا.</div></div></footer>
+
+</body>
+</html>
